@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.container{
+    background: linear-gradient( 30deg, #79defa, #a1acf600, #79defa) ;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #4f818262;
+}
+.input-container {
+  margin: 0 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.todo-header {
+  font-size: 50px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.todo-input {
+  padding: 10px 20px;
+  margin: 10px 30px;
+  width: 123%;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.todo-add {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: rgb(0, 60, 255);
+  color: white;
+  text-align: center;
+  margin: auto;
+  outline: none;
+}
+.todo-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  /* justify-content: space-evenly; */
+}
+.output-header {
+  color: black;
+  padding: 10px;
+  width: 75%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#todo-check {
+  margin: 10px;
+  background-color: red;
+}
+.todo-delete {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #f00;
+  color: white;
+  outline: none;
+}
+input[type=checkbox]:checked{
+    accent-color: green !important;
+}
